@@ -1,0 +1,147 @@
+[cmd]   - Botões de Comando
+[pag]   - Página do Multipage
+[frame] - Quadro no formulário
+[lbl]   - Labels
+[txt]   - Caixas de Texto
+[combo] - ComboBoxes
+[lst]   - ListBoxes
+
+#Atenção para a identação
+
+cmdVisaoGeral
+cmdPropostas
+cmdClientes
+cmdServicos
+cmdUsuarios
+cmdEncerrar
+cmdAdmin
+
+#Gerenciador
+
+
+pagUsuarios
+
+		frameUsuarios
+
+        lblUsuario
+        lblSenha
+        lblPermissao
+
+        txtUsuario
+        txtSenha
+        comboPermissao
+
+        cmdIncluirUsuario
+        cmdSalvarEditarUsuario
+		
+		framePermissoes
+
+        lblPermissao1
+        lblPermissao2
+        lblPermissao3
+        lblPermissao4
+
+		lstUsuarios
+
+		cmdEditarUsuario
+		cmdExcluirUsuario
+
+
+pagServicos
+
+
+		pagCadastrarServico
+
+        lblCodigoServico
+        lblTipoServico
+        lblCategoriaServico
+        lblEquipamentoServico
+        lblMetricaServico
+        lblPrecoServico
+        lblResumoServico
+        lblDescricaoServico
+
+        txtCodigoServico
+        comboTipoServico
+        comboCategoriaServico
+        comboEquipamentoServico
+        comboMetricaServico
+        txtPrecoServico
+        txtResumoServico
+        txtDescricaoServico
+
+        cmdLimparServico
+        cmdSalvarServico
+	
+		  	frameServico
+
+            lstServicos
+            cmdExcluirServico
+            cmdEditarServico
+            cmdSalvarEditarServico
+            cmdCancelarEditarServico
+
+
+  pagCarateristicas
+
+			frameTipoServico
+
+				  lstTipoServico
+
+			frameCategoria
+
+				  lstCategoriaServico
+	
+			frameEquipamento
+
+				  lstEquipamento
+
+			frameIncluirCaracteristica
+
+          lblCaracteristica
+          comboCaracteristica
+          cmdIncluirCaracteristica
+
+pagClientes
+
+      lblCodigoCliente
+      lblCNPJCliente
+      lblRazaoCliente
+      lblNomeCliente
+      lblContatoCliente
+      lblTelefoneCliente
+      lblEmailCliente
+      lblLogradouroCliente
+      lblNumeroCliente
+      lblComplementoCliente
+      lblBairroCliente
+      lblCidadeCliente
+      lblUFCliente
+      lblCEPCliente
+
+      txtCodigoCliente
+      txtCNPJCliente
+      txtRazaoCliente
+      txtNomeCliente
+      txtContatoCliente
+      txtTelefoneCliente
+      txtEmailCliente
+      txtLogradouroCliente
+      txtNumeroCliente
+      txtComplementoCliente
+      txtBairroCliente
+      txtCidadeCliente
+      comboUFCliente
+      txtCEPCliente
+
+      cmdSalvarCliente
+      cmdLimparCliente
+      cmdSalvarEditarCliente
+      cmdCancelarEditarCliente
+		
+		  frameClientes
+
+          lstClientes
+          cmdExcluirCliente
+          cmdEditarCliente
+		
